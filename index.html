@@ -14,19 +14,34 @@
 <body>
 	<div class="container-fluid">
 		<!--
-		xs - phones
+		xs - phones,
 		sm - tablets
 		md - desktops and laptops
 		lg - larger desktops, like huge iMacs -->
 		<h1>Welcome to yulongsworld</h1>
-		<p>I love coding and skateboarding</p>
+		<p>where everything is fake and nothing is real</p>
 		<h2>Here is an example of a 3 column layout</h2>
 		<div class="row">
-			<div class="col-md-4" style="background-color: #FF9999">Left</div>
-			<div class="col-md-4" style="background-color: #99CCFF">Middle</div>
-			<div class="col-md-4" style="background-color: #00CC99">Right</div>
+			<div class="col-md-4 text-center" style="background-color: #FF9999">Links
+			<p class="intro1">
+				<ul class="links">
+					<li><a href="https://github.com/yulongtan">GitHub</a></li>
+					<li><a href="">Linkedin</a></li>
+					<li><a href="">Overleaf</a></li>
+					<li><a href="">Facebook</a></li>
+				</ul>
+			</p>
+			</div>
+			<div class="col-md-4 text-center" style="background-color: #99CCFF">Middle</div>
+			<div class="col-md-4 text-center" style="background-color: #00CC99">Right</div>
 		</div>
 	</div>
+
+	<!-- 
+		div#nav>ul.list>li.link*4>a
+		With Emmet, this will autocomplete really well
+		div.container-fluid>h1+p+h2+div.row>div.col-md-4*3 is the one portrayed up there
+	-->
 
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
