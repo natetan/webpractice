@@ -18,3 +18,15 @@ body {
 #col1, #col2, #col3 {
 	font-size: 32px;
 }
+
+#col1 {
+	background-color: #FF9999;
+}
+
+#col2 {
+	background-color: #99CCFF;
+}
+
+#col3 {
+	background-color: #00CC99
+}
