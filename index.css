@@ -2,6 +2,19 @@ body {
 	font-family: courier;
 }
 
-.intro1, .links {
+.intro1, .intro2, .intro3, .links {
 	text-align: left;
+}
+
+.intro1, .intro3 {
+	padding-top: 3%;
+	font-size: 16px;
+}
+
+.link {
+	font-size: 16px;
+}
+
+#col1, #col2, #col3 {
+	font-size: 32px;
 }
