@@ -63,6 +63,22 @@
 						<li class="facts">My favorite method is <code>reverse()</code> from Java StringBuffer</li>
 						<li class="facts">I can breakdance relatively well (I have windmills)</li>
 					</ul>
+					<h4 class="codeBlock">Here is the simple reverse method</h4>
+					<pre class="codeBlock">
+public String reverse(String text) {
+  return new StringBuffer(text).reverse().toString();
+}
+					</pre>
+					<h4 class="codeBlock">Here is the traditional way [more complex]</h4>
+					<pre class="codeBlock">
+public String reverse(String text) {
+  String output = "";
+  for (int i = text.length(); i >= 0; i--) {
+    output += text.charAt(i);
+  }
+  return output;
+}
+					</pre>
 				</p>
 			</div>
 			<div class="col-md-4 text-center col3"><strong><i>Premise</i></strong>
