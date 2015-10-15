@@ -2,16 +2,16 @@ body {
 	font-family: calibri;
 }
 
-.intro1, .intro2, .intro3, .links {
+.intro1, .intro2, .intro3, .links, .factList {
 	text-align: left;
 }
 
-.intro1, .intro3 {
+.intro1, .intro2, .intro3 {
 	padding-top: 3%;
 	font-size: 16px;
 }
 
-.link {
+.link, .facts {
 	font-size: 16px;
 }
 
@@ -29,4 +29,8 @@ body {
 
 .col3 {
 	background-color: #00CC99;
+}
+
+.songList {
+	text-align: left;
 }
