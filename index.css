@@ -1,5 +1,5 @@
 body {
-	font-family: courier;
+	font-family: arial;
 }
 
 .intro1, .intro2, .intro3, .links {
@@ -27,6 +27,6 @@ body {
 	background-color: #99CCFF;
 }
 
-#col3 {
-	background-color: #00CC99
+.lol {
+	background-color: #00CC99;
 }
