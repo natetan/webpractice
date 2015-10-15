@@ -38,3 +38,13 @@ body {
 .codeBlock {
 	text-align: left;
 }
+
+.quote {
+	float: left;
+}
+
+.sbtImage {
+	float: right;
+	width: 50%;
+	height: 50%;
+}
