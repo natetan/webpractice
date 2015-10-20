@@ -52,7 +52,7 @@ body {
 	float: right;
 	width: 50%;
 	height: 50%;
-	padding: 3% 3% 0px 3%;
+	padding: 3% 0px 3% 3%;
 }
 
 .list1, .list2, .list3 {
@@ -66,4 +66,8 @@ body {
 
 .list3 {
 	border-radius: 0px 20px 20px 0px;
+}
+
+.col1 {
+	text-align: center;
 }
