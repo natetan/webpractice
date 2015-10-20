@@ -78,7 +78,7 @@ body {
 	font-size: 31px;
 }
 
-.regularTable, .condensedTable, .stripedTable, .sk8Table {
+.regularTable, .condensedTable, .stripedTable, .sk8Table, .scheduleTable {
 	padding: 1%;
 	margin: 3%;
 	border-radius: 20px;
