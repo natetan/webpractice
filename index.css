@@ -17,8 +17,8 @@ body {
 
 .col1, .col2, .col3 {
 	font-size: 32px;
-	border: 1px solid #687D6D;
 	border-radius: 20px;
+	border: 1px solid #687D6D;
 }
 
 .col1 {
@@ -37,6 +37,8 @@ body {
 	color: blue;
 	font-style: italic;
 	font-size: 20px;
+	border-radius: 20px;
+	padding: 3%;
 }
 
 .codeBlock {
@@ -52,12 +54,16 @@ body {
 	float: right;
 	width: 50%;
 	height: 50%;
+<<<<<<< HEAD
 	padding: 3% 0px 3% 3%;
+=======
+	padding: 3%;
+>>>>>>> cfa00c4c66615a6c16f641a9599904363720e685
 }
 
 .list1, .list2, .list3 {
 	padding: 3%;
-	background-color: pink; 
+	/*background-color: pink; */
 }
 
 .list1 {
@@ -68,6 +74,18 @@ body {
 	border-radius: 0px 20px 20px 0px;
 }
 
+<<<<<<< HEAD
 .col1 {
 	text-align: center;
+=======
+.songMethod {
+	font-size: 31px;
+}
+
+.regularTable, .condensedTable, .stripedTable, .sk8Table {
+	padding: 1%;
+	margin: 3%;
+	border-radius: 20px;
+	border: 1px solid #687D6D;
+>>>>>>> cfa00c4c66615a6c16f641a9599904363720e685
 }

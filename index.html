@@ -32,7 +32,7 @@
 			</a>
 		</div>
 		<div class="row row1">
-			<div class="col-md-2 list1">
+			<div class="col-md-2 list1 bg-danger">
 				<dl>
 					<dt class="albumTitle">Speak Now</dt>
 						<dd class="songTitle">- Long Live</dd>
@@ -42,7 +42,7 @@
 						<dd class="songTitle">- Last Kiss</dd>
 				</dl>
 			</div>
-			<div class="col-md-2 list2">
+			<div class="col-md-2 list2 bg-danger">
 				<dl>
 					<dt class="albumTitle">RED</dt>
 						<dd class="songTitle">- Red</dd>
@@ -52,7 +52,7 @@
 						<dd class="songTitle">- State of Grace</dd>
 				</dl>
 			</div>
-			<div class="col-md-2 list3">
+			<div class="col-md-2 list3 bg-danger">
 				<dl>
 					<dt class="albumTitle">1989</dt>
 						<dd class="songTitle">- Clean</dd>
@@ -62,7 +62,7 @@
 						<dd class="songTitle">- Wonderland</dd>
 				</dl>	
 			</div>
-			<p class="songTitle">To get the list of songs, simply use <code>getSongList()</code></p>
+			<p class="songMethod"><i>To get the list of songs, simply use</i><code>getSongList()</code></p>
 		</div>
 		<div class="row row2">
 			<div class="col-md-4 text-center col1"><strong><i>Links</i></strong>
@@ -108,6 +108,149 @@ public String reverse(String text) {
 				<p class="intro3">Getting lost was easy, but going under was child's play. The college workload started off as soft echoes in my head, then turned into irrelevant white noise in the back of my mind. Like a marathon with Usain Bolt, falling behind was as simple as one hesitant moment. When I finally reached the 26th mile, drenched in sweat and dying of thirst, another lap is added, and by the time that happens, I've been lapped twice. It's all in metaphors, but college was the tide that took me by surprise, and before I knew it, I'd been swept out to sea.</p>
 				<p class="intro3">It was only halfway through the winter when I finally found out what I enjoyed doing. It came in the form of logic, disguised by computer screen. I was given riddles which I solved with what I now call <i>code</i>. Discovery always interested me, and I loved the idea of building things from scratch. The creativty I grew up with came in the form of scribbles on paper and the changing of colors on paper, but I replaced them with taps on a keyboard. As a child, trying to find something I enjoyed doing seemed so distant, so <i>untouchable</i>, but now I have found the x that marked my map.</p>
 			</div>
+		</div>
+		
+		<div class="regularTable bg-success">
+			<h2><i>Swift Table of Songs</i></h2>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Album</th>
+						<th>Song</th>
+						<th>Year</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Speak Now</td>
+						<td>Haunted</td>
+						<td>2010</td>
+					</tr>
+					<tr>
+						<td>Red</td>
+						<td>All Too Well</td>
+						<td>2012</td>
+					</tr>
+					<tr>
+						<td>1989</td>
+						<td>Clean</td>
+						<td>2014</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<!-- This is the Emmet expression that expands the table
+		div.condensedTable>h2+table.condensed-table>(thead>tr>td*3)+tbody>(tr>td*3)*3 -->
+
+		<div class="condensedTable bg-info">
+			<h2><i>A Condensed Version</i></h2>
+			<table class="table table-condensed">
+				<thead>
+					<tr>
+						<th>Album</th>
+						<th>Song</th>
+						<th>Year</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Speak Now</td>
+						<td>Back To December</td>
+						<td>2010</td>
+					</tr>
+					<tr>
+						<td>Red</td>
+						<td>Sad Beautiful Tragic</td>
+						<td>2012</td>
+					</tr>
+					<tr>
+						<td>1989</td>
+						<td>Wildest Dreams</td>
+						<td>2014</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<div class="stripedTable bg-danger">
+			<h2><i>A Striped Version</i></h2>
+			<!-- table.table-striped>(thead>tr>td*3)+tbody>(tr>td*3)*3 -->
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>Album</th>
+						<th>Song</th>
+						<th>Year</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Speak Now</td>
+						<td>If This Was A Movie</td>
+						<td>2012</td>
+					</tr>
+					<tr>
+						<td>Red</td>
+						<td>I Almost Do</td>
+						<td>2014</td>
+					</tr>
+					<tr>
+						<td>1989</td>
+						<td>Wonderland</td>
+						<td>2014</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="sk8Table bg-success">
+			<h2><i>Local Sponsored Skaters</i></h2>
+			<table class="table table-condensed">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Age</th>
+						<th>Stance</th>
+						<th>Hometown</th>
+						<th>Flip</th>
+						<th>Sponsor</th>
+						<th>Highest Stairset</th>
+						<th>Best Trick</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Zach Verbeck</td>
+						<td>22</td>
+						<td>Regular</td>
+						<td>Seattle</td>
+						<td>Heelflip</td>
+						<td>Adidas</td>
+						<td>7 [Kane]</td>
+						<td>Backside 180 Heelflip</td>
+					</tr>
+					<tr>
+						<td>Yulong Tan</td>
+						<td>19</td>
+						<td>Regular</td>
+						<td>Seattle</td>
+						<td>[incomplete]</td>
+						<td>Vans</td>
+						<td>2 [Guggenheim]</td>
+						<td>Ollie</td>
+					</tr>
+					<tr>
+						<td>Yubo Wang</td>
+						<td>19</td>
+						<td>Goofy</td>
+						<td></td>
+						<td>Kickflip</td>
+						<td>Nike SB</td>
+						<td></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
 	</div>
 
