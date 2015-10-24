@@ -101,7 +101,7 @@ body {
 	font-size: 31px;
 }
 
-.regularTable, .condensedTable, .stripedTable, .sk8Table, .scheduleTable {
+.regularTable, .condensedTable, .stripedTable, .sk8Table, .scheduleTable, .pokeTable {
 	border: 1px solid #687D6D;
 	border-radius: 20px;
 	margin: 3%;
